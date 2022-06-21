@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.butukay.autotrader.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client":[
+    "ClientConnectionMixin",
+    "EntityRendererMixin",
+    "VillagerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
